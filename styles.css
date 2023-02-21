@@ -6,10 +6,12 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: white;
+    min-height: 100px;
+    padding: 0 25px;
 }
 
 ul {
@@ -33,9 +35,23 @@ nav ul li {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -44,12 +60,16 @@ nav ul li {
 }
 
 .box {
-    background-color: yellow;
-    margin: 100px 0px;
-    height: 250px;
-    width: 500px;
-    text-align: center;
+    height: 225px;
+    width: 450px;
     display: flex;
+    padding: 0 50px;
+    margin: 0;
+}
+
+.box h1, .box p {
+    padding: 0;
+    margin: 0;
 }
 
 .left, .section-1 {
@@ -60,9 +80,42 @@ nav ul li {
 .right {
     background-color: #787878;
     color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
 }
+
+.sections {
+    height: 500px;
+}
+
+
+.section-3 {
+    background-color: #e5e7eb;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
 
 .flex-centered {
     justify-content: center;
     align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    align-self: baseline;
 }
