@@ -9,7 +9,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
     min-height: 100px;
     padding: 0 25px;
 }
@@ -40,6 +40,13 @@ button {
     border-radius: 6px;
     padding: 5px 25px;
     font-size: 18px;
+    color: #f9faf8;
+}
+
+footer {
+    height: 100px;
+    flex: 0 0 auto;
+    background-color: #1f2937;
     color: #f9faf8;
 }
 
@@ -88,9 +95,26 @@ button {
     height: 500px;
 }
 
+.section-2 {
+    align-items: center;
+    justify-content: space-around;
+}
 
 .section-3 {
     background-color: #e5e7eb;
+}
+
+.section-3-box {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-3-box p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .main-title {
@@ -102,8 +126,6 @@ button {
     font-size: 18px;
     color: #e5e7eb;
 }
-
-
 
 .flex-centered {
     justify-content: center;
@@ -119,3 +141,34 @@ button {
 .button {
     align-self: baseline;
 }
+
+.image-box {
+    border: solid 5px;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+}
+
+.img-box-ul {
+    gap: 50px;
+}
+
+.img-box-main {
+    width: 150px;
+    height: 300px;
+    gap: 10px;
+}
+
+.img-box-text {
+    color: #848484;
+}
+
+.img-box-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
