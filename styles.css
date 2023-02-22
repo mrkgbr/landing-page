@@ -137,6 +137,10 @@ p {
     margin-left: 150px;
 }
 
+.section-4-box button:hover {
+    background-color: #70a7ff;
+}
+
 .section-4-box-text {
     gap: 5px;
     font-size: 18px;
