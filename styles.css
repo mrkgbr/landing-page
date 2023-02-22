@@ -50,6 +50,11 @@ footer {
     color: #f9faf8;
 }
 
+p {
+    margin: 0 0;
+    padding: 0;
+}
+
 .container-column {
     display: flex;
     flex-direction: column;
@@ -115,6 +120,32 @@ footer {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+}
+
+.section-4-box {
+    background-color: #3882f6;
+    width: 1000px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.section-4-box button {
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border: solid 2px;
+    gap: 100px;
+    margin-left: 150px;
+}
+
+.section-4-box-text {
+    gap: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-4-title {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .main-title {
